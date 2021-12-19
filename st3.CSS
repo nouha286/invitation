@@ -1,0 +1,198 @@
+/*****************************************************************style corps***********************************************************/
+.corps
+{
+    margin: 20px 20px;
+    background: black;
+
+}
+/**********************************************************************style nav*************************************************************************************/
+body
+{
+    background-color: #8A8A8A;
+    padding: 5px 0;
+}
+
+.inscription
+{
+    margin-top: 0;
+    margin-left: 1095px;
+    display:flex;
+}
+button
+{
+    margin: 0 5px;
+    
+}
+.s button
+{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    width: 70px;
+}
+.l button
+{
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: #8A8A8A;
+    width: 70px;
+}
+.s a
+{
+    color: white;
+}
+.l a
+{
+    color: black;
+}
+
+/*************************************************************************Style navigation*******************************************************************************/
+
+
+ ul li a
+ {
+     margin: 0 30px;
+     text-decoration: none;
+ }
+
+ ul li
+{
+    list-style:none;
+}
+.corps label
+{
+    margin: 0 20px;
+}
+.navigation
+{
+    display: flex;
+    height: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+ .option
+{
+    margin: 0 60px;
+    display: flex;
+}
+.option select
+{
+    margin: 0 30px;
+    border: none;
+    color:white;
+    background: black;
+    
+}
+/****************************************************************************Log-in*****************************************************/
+.Log-in
+{
+padding: 80px 100px;
+}
+.Log-in img
+{
+    margin-left: 155px;
+width: 700px;
+height: 700px;
+}
+
+.saisi
+{
+ margin-left: 200px;
+    margin-top: -450px;
+}
+
+.saisi ul li
+{
+padding: 20px 0px;
+margin: 50px;
+margin-left: 210px;
+}
+
+.sauv
+{
+    margin-left: 50px;
+    background: linear-gradient(to right,#FB7B30,#A831A5);
+    color: white;
+    border-radius: 5px;
+    border:none;
+
+}
+/*******************************************************************découvrir**********************************************************/
+.d h1
+{
+   color:white ; 
+   text-align: center;
+}
+
+.d img
+{
+    margin-left: 250px;
+    width: 700px;
+    height: 700px;
+}
+/*******************************************************************Vide**************************************************************/
+
+.vide
+{
+    height: 60px;
+    background-color: #8A8A8A;
+}
+
+/*******************************************************************Footer************************************************************/
+
+
+
+.e 
+{
+
+    background-color: black;
+    color: white;
+    display:  flex;
+    padding: 40px;
+    margin-top: 60px;
+    height: 140px;
+    
+}
+
+
+.p
+{
+   padding-right:  80px;
+   font-family: sans-serif;
+   font-size: 13px;
+
+}
+.fa {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+.e ul
+{
+    list-style: none;
+    margin: 0 20px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.e ul li
+{
+    margin: 10px 10px;
+}
+
+.copy-right
+{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    background-color:#8A8A8A; ;
+}
+
