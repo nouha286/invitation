@@ -120,7 +120,7 @@ header
 
 .bear img
 {
-    position: relative;
+   
     display: flex;
     width: 370px;
     height: 340px;
@@ -381,35 +381,78 @@ grid-row: 2 / 3;
 
 
 /*******************************************************************************Responsivité*************************************************************************/
-/*******************************************************************************************************************************************************************/
-@media (max-width: 640px)
+/**********************************************************************************mobile**************************************************************/
+@media (max-width: 360px)
 {
     .corps {
-        margin: 0 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        width: 100%;
+    }
+    .navigation {
+        display: flex;
+        height: 20px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 200PX;
+    }
+    .option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 100px;
+    }
+    nav ul li {
+        list-style: none;
+        margin-top: 10px;
+    }
+    nav select {
+        border: 1px solid black;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    .inscription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .l button {
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+        width: 70px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .s button {
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background-color: black;
+        width: 70px;
+        margin-top: 10px;
     }
     header {
         background-color: black;
         color: white;
-        height: 323px;
+        height: 330PX;
+        width: 100%;
+        padding: 21px;
     }
     .referral {
-        margin: 40px 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        margin: 40px 0px;
     }
     .fg {
         display: flex;
         flex-direction: column;
-        align-items: stretch;
-    }
-    .find
-    {
-        margin: 10PX 0;
+        align-items: center;
     }
     .find select {
         font-size: 11px;
-        margin: 0 47px;
+        margin: 0 10px;
         height: 30px;
         width: 290px;
         border: none;
@@ -427,246 +470,251 @@ grid-row: 2 / 3;
     }
     .get
     {
-        margin: 10PX 116PX;
-    }
-    
-    .bear
-    {
-     display: none;
-    }
-    .a {
-        margin: 0px 0;
-    }
-    .logo {
-        margin-top: 108PX;
-        gap: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .b {
-        margin:40px 0;
-        display: flex;
-        flex-direction: column;
-    }
-    .gauche {
-        width: 100%;
-    }
-    .texte {
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding: 28PX;
-        align-items: center;
-    }
-    .texte .t {
-        width: 100%;
-    }
-    .texte h2 {
-        font-size: 15px;
-    }
-    .texte p {
-        font-size: 15px;
-    }
-    .texte input {
-        background: linear-gradient(to right, #FB7B30,#A831A5 );
-        color: white;
-        margin: 40PX 115px;
-        border: none;
-        border-radius: 5px;
-        padding: 8PX 10px;
-    }
-    
-    .droite img {
-        height: 520px;
-        align-items: center;
-        width: 420PX;
-    }
-    .c {
-        background-color: black;
-        color: white;
-        display: flex;
-        height: 309px;
-        padding: 6px 20px;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    .links{
-        display: flex;
-    align-items: center;
-    flex-direction: column;
-      }
-      .links h1 {
-        font-size: 30px;
-        font-family: sans-serif;
-    }
-    .links h2 {
-        font-size: 15px;
-        font-family: sans-serif;
-    }
-    .google {
-        padding: 10PX 10px;
-        width: 165px;
-        font-size: 10px;
-        background: white;
-        border: none;
-        border-radius: 3px;
-        margin: 10px 0;
-    }
-    .EF {
-        padding: 10PX 10px;
-        background: linear-gradient(to right, #FB7B30,#A831A5 );
-        color: white;
-        width: 165px;
-        font-size: 10px;
-        border: none;
-        border-radius: 3px;
-    }
-    .photo img {
-        width: 480px;
-        height: 350px;
-        margin-top: 45px;
-    }
-    .d {
-        margin-top: 442px;
-        grid-template-columns: 290px 210px 280px 230px;
-        grid-gap: 17px;
-        grid-template-rows: auto auto;
-        align-items: center;
-        justify-items: stretch;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-  
-    .copy-right {
-        color: gray;
-        font-size: 10px;
-        text-align: center;
-        display: flex;
-    }
-    .option {
-        margin: 0 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .option li
-    {
         margin-top: 10px;
-        border: 1px solid black;
-        border-radius: 5px;
-    }
-    .option select 
-    {
-        border: 1px solid black;
-        border-radius: 5px;
-        
-    }
-    .inscription {
-        margin: 0 75px;
-        display: flex;
-        flex-direction: column;
-    }
-    .navigation {
-        display: flex;
-        height: 20px;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-        padding-bottom: 75px;
-    }
-    a {
-        text-decoration: none;
-        color: black;
-        
-        margin-left: 35px;
-    }
-    nav
-    {
-        height: 200px;
-    }
-    nav ul li {
-        list-style: none;
-    }
-    nav select {
-        margin: 10px 30px;
-        border: none;
-        align-items: center;
-    }
-    .l button {
-        border: 1px solid black;
-        color: black;
-        background-color: white;
-        width: 100px;
-        margin-top: 10px;
-        border-radius: 5px;
-       
-    }
-    .s a 
-    {
-        margin-left: -5px;
-    }
-    .l a 
-    {
-        margin-left: -5px;
-    }
-    button {
-        margin: 0 20px;
-        margin-left: 50px;
-    }
-    .s button {
-        border-radius: 5px;
-        border: none;
-        color: white;
-        background-color: black;
-        width: 100px;
-        margin-top: 10px;
-       
-    }
-    .Pe {
-        width: 230px;
-        margin-top: 10px;
-        margin-right: 60px;
-    }
-    .Pg {
-        width: 228px;
-        margin-top: 10px;
-    }
-    .d {
-        margin-top: 442px;
-        
-        align-items: center;
-        justify-items: stretch;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .e {
-        background-color: black;
-        color: white;
-        padding: 40px;
-        margin-top: 60px;
-        height: 809px;
-        display: flex;
-        flex-direction: column;
-    }
-    .p {
-        padding-right: 80px;
-        font-family: sans-serif;
-        font-size: 13px;
-    }
-    .e ul {
-        list-style: none;
-        margin: 46px 86px;
-        font-size: 13px;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
     }
 
+   .bear img {
+    margin-top: 42px;
+    display: flex;
+    width: 100%;
+    height: 340px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
 }
+/*********************************************************************************Style_Logo****************************************************************************/
+.a {
+    margin-top: 390PX;
+}
+.logo {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+/****************************************************************************Style Cash Rewards****************************************************************************/
+.b {
+    margin: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texte {
+    padding: 40PX 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gauche img {
+    width: 100%;
+}
+.gauche
+{
+    width: 100%;
+}
+.droite
+{
+    width: 100%;
+}
+
+.texte .t
+{
+    width: 100%;
+
+}
+.droite img
+{
+   width: 100%; 
+  
+}
+
+
+.texte h2 
+{
+    font-size: 15px;
+}
+.t img
+{
+    width: 30px;
+    height: 30px;
+   
+}
+.texte .far
+{
+    font-size: 15px;
+    border-radius: 50%;
+    background:linear-gradient(to right,#FB7B30,#A831A5) ;
+    color: white;
+    border: none;
+}
+.texte p
+{
+    font-size: 15px;
+}
+.texte input
+{
+    background:linear-gradient(to right, #FB7B30,#A831A5 ) ;
+    color: white;
+    margin: 40PX 115px;
+    border: none;
+    border-radius: 5px;
+    padding: 8PX 10px ;
+}
+
+/*****************************************************************************Style_Links******************************************************************************/
+.c {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 370px;
+    padding: 6px 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.links
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.photo img {
+  display: none;
+}
+
+.links h1
+{
+    font-size: 30px;
+    font-family:sans-serif;
+}
+.links h2
+{
+    font-size: 15px;
+    font-family:sans-serif;
+}
+.far
+{
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+}
+
+.google
+{
+    padding: 10PX 10px;
+    width: 165px;
+    font-size: 10px;
+    background: white;
+    border: none;
+    border-radius: 3px;
+}
+.EF {
+    margin-top: 10px;
+    padding: 10PX 10px;
+    background: linear-gradient(to right, #FB7B30,#A831A5 );
+    color: white;
+    width: 150px;
+    font-size: 10px;
+    border: none;
+    border-radius: 3px;
+}
+/****************************************************************************Style_Grid*******************************************************************************/
+.d {
+    margin-top: 40px;
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+.Pa {
+    width: 100%;
+}
+.Pb {
+    width: 100%;
+}
+.Pc {
+    width: 100%;
+}
+.Pd {
+    width: 100%;
+}
+.Pe {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+.Pf {
+    width: 100%;
+}
+.Pg {
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+/******************************************************************************Style_Footer**************************************************************************/
+.e {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+
+.p {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+.e ul {
+    list-style: none;
+    margin: 10px 97px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.e ul li 
+{
+    margin: 10px 10px;
+}
+
+.copy-right
+{
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+    height: 100px;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.e ul li a
+{
+    color: white;
+}
+
+}
+/******************************************************************Responsivité*****************************************************************/
+/******************************************************************
